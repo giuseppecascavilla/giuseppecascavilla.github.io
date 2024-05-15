@@ -3,6 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import HorizontalCard from "../components/HorizontalCard.astro";
 import { getCollection } from "astro:content";
 import createSlug from "../lib/createSlug"
+import { Image } from "astro:assets";
 
 const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
@@ -42,8 +43,16 @@ const last_posts = posts.slice(0, 3);
 
         <p>&nbsp;</p>      
 
-        Active member of 
-
+        <!-- Active member of <p style="display:inline-block;"><Image src="/logos/jadelab.png" loading="eager" alt="" width="200" height="45"></Image></p> -->
+        <table>
+          <tr style="background-color:white">
+              <th><b>Active member of&ensp; &nbsp;</b></th> <!--<b>this is the bold text</b>-->
+              <th>
+                <a href="https://jade-lab.github.io/" target="_blank" rel="noopener" title="jade_lab_site">
+                <Image src="/logos/jadelab.png" loading="eager" alt="" width="200" height="45" style="display:inline-block"></Image></th><th style="float:right"></th>
+              </a>
+          </tr>
+          </table>
 
 
       </text>
