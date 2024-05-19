@@ -1,0 +1,137 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title = "Hardware" sideBarActiveItemID="hardware">
+  <!-- <div>
+    <div class="text-3xl w-full font-bold mb-5">Hardware</div>
+  </div> -->
+  <div class="pb-12 mt-5">
+    <div class="text-5xl font-bold">Hardware ⚙️</div>
+    <div class="py-2">
+      <text class="text-lg">
+        For my experiments, research, and teaching activities, I rely on Kali Linux OS as my primary platform. 
+        To ensure versatility, I maintain multiple copies and versions of Kali Linux, each tailored to run different 
+        software for various types of attacks. Additionally, to validate my scripts and test payloads effectively, I operate 
+        multiple Windows machines within virtualized environments, utilizing VMware or VirtualBox.
+
+        <p>&nbsp;</p> 
+
+
+        Expanding beyond Kali Linux, I integrate Whonix and Tails into my testing arsenal. 
+        Tails, in particular, is installed on a high-capacity 128GB USB drive, with a partition space allocated for persistent storage. 
+        This setup enhances privacy and security while affording me the flexibility to conduct a wide range of experiments and assessments across 
+        different operating systems and environments.
+        
+        <p>&nbsp;</p> 
+
+
+        My personal lab is equipped with some specialized hardware tailored for comprehensive security testing, covering 
+        OS, WiFi networks, and diverse attack vectors. From evaluating OS resilience to simulating phishing campaigns and conducting 
+        Man-in-the-Middle attacks, I leverage cutting-edge tools to ensure robust defense strategies.
+        
+        <p>&nbsp;</p> 
+
+  
+      </text>
+    </div>
+
+
+
+
+
+
+
+
+  <HorizontalCard
+    title="Flipper Zero"
+    img="/hardware/flipper_zero.webp"
+    desc="Flipper Zero is a portable multi-tool for pentesters and geeks in a toy-like body. It can interact with digital systems in real life and grow while you use it. Explore any kind of access control system, RFID, radio protocols, and debug hardware using GPIO pins."
+    url="https://flipperzero.one/"
+  />
+
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="USB Rubber Ducky"
+    img="/hardware/rubber_ducky.webp"
+    desc="TO A HUMAN IT’S A FLASH DRIVE. TO A COMPUTER IT’S A KEYBOARD, TYPING AT SUPERHUMAN SPEEDS. The USB Rubber Ducky — which looks like an innocent flash drive to humans — abuses this trust to deliver powerful payloads, injecting keystrokes at superhuman speeds."
+    url="https://shop.hak5.org/products/usb-rubber-ducky"
+  />
+
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Digispark attiny85"
+    img="/hardware/digi_spark.webp"
+    desc="The USB Rubber Ducky or Bad USB is a famous attack tool that looks like a USB pen drive but acts like a keyboard when plugged into any unlocked device. The cons of USB Rubber Ducky is that it is expansive. The Digispark is an ATtiny 85-based microcontroller development board, programmable in Arduino coming with a price of €9. With a Digispark board you have your cheap USB Rubber Ducky and you can use it to test your payloads and attacks."
+    url="https://medium.com/@jeroenverhaeghe/building-a-bad-usb-with-a-low-cost-microcontroller-612ac6412471"
+  />
+
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="ALFA Network card"
+    img="/hardware/alfa_network.webp"
+    desc="2x ALFA Network card. Model ALFA awus036nha. It uses the Atheros AR9271 chipset, which means that it will be natively supported by most Linux distributions including Kali Linux. This WiFi adapter is compatible with any brand 802.11g or 802.11n router using 2.4 ghz wave-length."
+    url="https://alfa-network.eu/awus036nha"
+  />
+
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Google Nexus 5"
+    img="/hardware/google_nexus_5.webp"
+    desc="I bought a Nexus 5 on eBay for €40. It runs a full Kali distro (with some limitations), it can do HID attacks, packet injection for wifi hacking, it has a camera, LTE capabilities, cold boot attacks through DriveDroid, and a built-in monitor. To me, this is one of the most amazing devices out there for the price. Kali NetHunter is an Android ROM made for security researchers and hackers. Offensive Security, the team behind Kali Linux, makes it. If you ever wanted to do hacking on your phone, NetHunter is the best thing, other than Termux."
+    url="https://www.gsmarena.com/lg_nexus_5-5705.php"
+  />
+
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Samsung Galaxy s10"
+    img="/hardware/samsung_galaxy_s10.webp"
+    desc="Samsung Galaxy s10 is equipped with NetHunter and Termux to vitualize KaliLinux OS. Moreover, the phone is currently used to test different applications like Bluettoth LE Spam to test bloototh attacks. Furthermore, the phone is employed to retrive data from multiple social application with the final aim to build OSINT (Open Source INTelligence) tools and approaches."
+    url="#"
+  />
+
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="ALFA network antennas"
+    img="/hardware/antennas.webp"
+    desc="The 9dBi Omni Antenna is used with the ALFA Network card to boost the WiFi signal."
+    url="#"
+  />
+
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Adapters"
+    img="/hardware/adapters.webp"
+    desc="Multiple adapters Type-C, USB 2.0, Samsung Type-C adapters to perform attacks using old harware devices."
+    url="#"
+  />
+
+
+
+  <!-- <div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
+  </div>
+
+  <HorizontalCard
+    title="Demo Project 3"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+    badge="FOSS"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Demo Project 4"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+  />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="Demo Project 5"
+    img="/post_img.webp"
+    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    url="#"
+  /> -->
+</BaseLayout>
