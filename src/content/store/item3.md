@@ -1,15 +1,21 @@
 ---
-title: "Demo Item 3"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+title: "Digispark attiny85"
+description: "A very small programmable board based on the Attiny85 controller."
 custom_link_label: "Custom Btn"
 custom_link: "https://customurl.com/"
 updatedDate: "Sep 11 2022"
-pricing: "$10"
-oldPricing: "$25.5"
-checkoutUrl: "https://checkouturl.com/"
-heroImage: "/itemPreview.webp"
+# pricing: "$10"
+# oldPricing: "$25.5"
+# checkoutUrl: "https://checkouturl.com/"
+heroImage: "/hardware/digi_spark.webp"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+The <b>USB Rubber Ducky</b> or Bad USB is a famous attack tool that looks like a USB pen drive but acts like a keyboard when plugged into any unlocked device. It can be programmed to inject keystroke and binary files into a system, get the cached password to hack a system, steal the victim's essential and credential data, and can inject rubber ducky payload to the victim’s system. The most important feature of a USB Rubber Ducky is that it cannot be detected by any Anti-Virus or system Firewall as it acts as an HID device.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+The cons of USB Rubber Ducky is that it is <b>expansive</b>. 
+
+The Digispark is an ATtiny 85-based microcontroller development board, programmable in Arduino coming with a price of €9
+
+Digispark boards can be programmed using the Arduino IDE. ATtiny85 has about 8 kB of programmable flash memory. The bootloader uses about 2 kB and the available memory will be 6 kB. It is very small compared to an Arduino board or Rubber Ducky equipment, but if we limit our payload size to around 6 kB, it is sufficient.
+
+With a Digispark board you have your cheap USB Rubber Ducky and you can use it to test your payloads and attacks. 

@@ -11,7 +11,44 @@ export async function getStaticPaths({ paginate }) {
 const { page } = Astro.props;
 ---
 
+
+
+
 <BaseLayout title="Store" sideBarActiveItemID="store">
+
+
+  <div class="pb-12 mt-5">
+    <div class="text-5xl font-bold">Hardware ⚙️</div>
+    <div class="py-2">
+      <text class="text-lg">
+        For my experiments, research, and teaching activities, I rely on Kali Linux OS as my primary platform. 
+        To ensure versatility, I maintain multiple copies and versions of Kali Linux, each tailored to run different 
+        software for various types of attacks. Additionally, to validate my scripts and test payloads effectively, I operate 
+        multiple Windows machines within virtualized environments, utilizing VMware or VirtualBox.
+
+        <p>&nbsp;</p> 
+
+
+        Expanding beyond Kali Linux, I integrate Whonix and Tails into my testing arsenal. 
+        Tails, in particular, is installed on a high-capacity 128GB USB drive, with a partition space allocated for persistent storage. 
+        This setup enhances privacy and security while affording me the flexibility to conduct a wide range of experiments and assessments across 
+        different operating systems and environments.
+        
+        <p>&nbsp;</p> 
+
+
+        My personal lab is equipped with some specialized hardware tailored for comprehensive security testing, covering 
+        OS, WiFi networks, and diverse attack vectors. From evaluating OS resilience to simulating phishing campaigns and conducting 
+        Man-in-the-Middle attacks, I leverage cutting-edge tools to ensure robust defense strategies.
+        
+        <p>&nbsp;</p> 
+
+  
+      </text>
+    </div>
+
+
+
   <ul>
     {
       page.data.map((item) => (

@@ -1,15 +1,15 @@
 ---
-title: "Demo Item 1"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+title: "Flipper Zero"
+description: "Flipper Zero is a portable multi-tool for pentesters and geeks in a toy-like body."
 custom_link_label: "Live Preview"
-custom_link: "https://demourl.com/"
+# custom_link: "https://demourl.com/"
 updatedDate: "Sep 15 2022"
-pricing: "$15"
-badge: "Featured"
-checkoutUrl: "https://checkouturl.com/"
-heroImage: "/itemPreview.webp"
+# pricing: "$15"
+# badge: "Featured"
+# checkoutUrl: "https://checkouturl.com/"
+heroImage: "/hardware/flipper_zero.webp"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
+Flipper Zero is a tiny piece of hardware with a curious personality of a cyber-dolphin. It can interact with digital systems in real life and grow while you use it. Explore any kind of access control system, RFID, radio protocols, and debug hardware using GPIO pins.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
+The idea of Flipper Zero is to combine all the hardware tools you'd need for exploration and development on the go. Flipper was inspired by the pwnagotchi project, but unlike other DIY boards, Flipper is designed with the convenience of everyday usage in mind — it has a robust case, handy buttons, and shape, so there are no dirty PCBs or scratchy pins. Flipper turns your projects into a game, reminding you that development should always be fun.
