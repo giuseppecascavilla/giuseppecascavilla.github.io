@@ -5,57 +5,184 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
+    <div class="text-3xl w-full font-bold">Profile 📝</div>
   </div>
 
   <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    The complete CV is available <a href="/CV/CV_giuseppe_cascavilla.pdf" target="_blank"><b>HERE</b></a>.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Job Position</div>
+  </div>
+
+  <!-- <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Title Name"
+      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+    /> -->
+
+
+    <div class="time-line-container grid gap-4 mb-10">
+      <TimeLineElement
+        title="Tenured - Assitant Professor"
+        subtitle="[2022] to [NOW] at [TU/e - JADS], [Netherlands]"
+      />
+        <TimeLineElement
+          title="Tenure Track"
+          subtitle="[2020] to [2022] at [TU/e - JADS], [Netherlands]"
+        />       
+        <TimeLineElement
+        title="PostDoctoral fellow"
+        subtitle="[2018] to [2020] at [TU/e - JADS], [Netherlands]"
+    />
   </div>
 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Education</div>
   </div>
-
   <div class="time-line-container grid gap-4 mb-10">
+  <TimeLineElement
+        title="Ph.D."
+        subtitle="[2014] to [2017] at [Sapienza - Universitá di Roma], [Italy]"
+  />
+  <TimeLineElement
+        title="Master Degree (Double Degree Program)"
+        subtitle="[2010] to [2014] at [VU University of Amsterdam], [Netherlands]"
+  />
+  <TimeLineElement
+        title="Master Degree (Double Degree Program)"
+        subtitle="[2010] to [2014] at [Universitá degli studi di L'Aquila], [Italy]"
+  />
+</div>
+
+
+<div class="mb-5">
+  <div class="text-3xl w-full font-bold">Teaching</div>
+</div>
+<div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+        title="Data Forensics"
+        subtitle="[2020] to [NOW] at [TU/e - JADS], [Netherlands]"
+/>
+    <TimeLineElement
+        title="Cybersecurity"
+        subtitle="[2019] to [NOW] at [TU/e - JAD], [Netherlands]"
+/>
+    <TimeLineElement
+        title="NoSQL for Professionl Education"
+        subtitle="[2019] at [TU/e - JAD], [Netherlands]"
     />
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
-  </div>
+    title="Machine Learning course introduction for PDEng"
+    subtitle="[2019] to [2019] at [TU/e University of Eindhoven], [Netherlands]"
+/>
+<TimeLineElement
+title="Database"
+subtitle="[2014] to [2014] at [University of Padua], [Italy]"
+/>
+</div>
+
+
+<!-- <div class="mb-5">
+  <div class="text-3xl w-full font-bold">Thesis Supervision</div>
+</div>
+<div class="time-line-container grid gap-4 mb-10">
+      <TimeLineElement
+          title="The applicability of a hybrid framework for automated phishing detection"
+          subtitle="R.J.van Geest - JADS. Published in Computers & Security 2023"
+/>
+      <TimeLineElement
+          title="Trajectory Prediction And LocationMeasurement In A Multi Sensor System"
+          subtitle="T. van der Wielen - JADS. Published in IEEE BigData 2023"
+/>
+      <TimeLineElement
+          title="Unsupervised Labour Intelligence Systems: an Exploitation Detection Approach and Its Evaluation"
+          subtitle="D. Carnevale - JADS. Published in SummerSOC 2022"
+/>
+      <TimeLineElement
+          title="Protecting large-scale Enterprise Resource Planning Systems from second-stage Impersonation Attacks An automated approach and its evaluation"
+          subtitle="B.L.P. De Kok - JADS."
+/>
+      <TimeLineElement
+          title="IoT attack analysis using semi-supervised clustering"
+          subtitle="R. B. W. Zwart - JADS. Published in IEEE BigData 2022"
+/>
+      <TimeLineElement
+          title="Violence Detection: A Serious-Gaming Approach"
+          subtitle="S. Ruessink - JADS."
+/>
+
+      <TimeLineElement
+          title="Illicit Darkweb Classification via Natural-Language Processing"
+          subtitle="T. Tzagkaraki - JADS. Published in IEEE Secrypt 2022"
+/>
+      <TimeLineElement
+          title="A computer vision approach to simulating terrorist scenarios"
+          subtitle="J. Slabber - JADS. Published in IEEE AVI 2020"
+/>
+      <TimeLineElement
+          title="Illicit Content Recognition with Few Images"
+          subtitle="D. Mellios - JADS. Published in Secrypt 2023"
+/>
+      <TimeLineElement
+          title="Anomalous Scene Recognition Through the Internet-of-Things: a Data-Fusion Approach"
+          subtitle="S. Ladisa - JADS."
+/>
+      <TimeLineElement
+          title="Classifying Online Illegal Activities in the Dark Web"
+          subtitle="M. Keizer - JADS. Published in ICSME 2022"
+/>
+      <TimeLineElement
+          title="Detection and Distance Estimation of Traffic Lights and Traffic Signs in Monocular Recordings for Road Asset Management"
+          subtitle="L. Portier - JADS. Published in ICSME 2022"
+/>
+
+</div> -->
+
+
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Experience</div>
+    <div class="text-3xl w-full font-bold">Invited Speaker</div>
   </div>
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Cyber Threat Intelligence: Approaches and Methods"
+      subtitle="[June 26th, 2024] Conference SummerSoc - Service Oriented Computing. [Creete], [Greece]"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      </TimeLineElement>
+    <TimeLineElement
+      title="Workshop - AI for society"
+      subtitle="[June 30th 2022] Data Week 2022. [Tilburg], [Netherlands]"
+    >
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="The Dark Side of W.W.W."
+      subtitle="[October 28th 2020] Data Week 2020. ['s-Hertogenbosch], [Netherlands]"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Nuovi spazi per i cittadini globali: una riflessione interdisciplinare sull'ambiente fisico e virtuale che ci circonda"
+      subtitle="[May 31st 2018] Festival dello Sviluppo Sostenibile. [Padova], [Italy]"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
     </TimeLineElement>
+    <TimeLineElement
+    title="Gli spazi del diritto: verso le nuove frontiere del giuridico"
+    subtitle="[May 9th 2018] University of Padova - Department of Law. [Padova], [Italy]"
+  >
+  </TimeLineElement>
+    <TimeLineElement
+    title="Data Security: come difendersi dai rischi che possiamo correre in rete?"
+    subtitle="[Oct 19-22 2017] DIGITALmeet. [Padova], [Italy]"
+  >
+  </TimeLineElement>
+
+
+
   </div>
 
-  <div class="mb-5">
+  <!-- <div class="mb-5">
     <div class="text-3xl w-full font-bold">Certifications</div>
   </div>
 
@@ -66,13 +193,20 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>
       <a href="#" target="_blank"> Certification Name (with link)</a>
     </li>
-  </ul>
+  </ul> -->
 
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Skills</div>
   </div>
 
   <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>Kali Linus OS: metasploit, wifiphisher, aircrack-ng, hashcat, wireshark, ettercap, veil</li>
+    <li>Programming Languages: Python, R, SQL, Java</li>
+    <li>Web Page Design: PHP, HTML, CSS, JavaScript</li>
+    <li>Content Management System: WordPress, Drupal, Joomla.</li>
+    <li>Operating Systems: Windows, Linux, Mac OSX.</li>
+    <li>Software: Gephi, Gnuplot, Microsoft Office Suite, Video and Audio editing Suite, Adobe Suite</li>
+    <!-- <li>Skill Name</li>
     <li>Skill Name</li>
     <li>Skill Name</li>
     <li>Skill Name</li>
@@ -80,13 +214,6 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>Skill Name</li>
     <li>Skill Name</li>
     <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
+    <li>Skill Name</li> -->
   </ul>
 </BaseLayout>

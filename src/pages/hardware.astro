@@ -4,12 +4,10 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 ---
 
 <BaseLayout title = "Hardware" sideBarActiveItemID="hardware">
-  <!-- <div>
-    <div class="text-3xl w-full font-bold mb-5">Hardware</div>
-  </div> -->
-  <div class="pb-12 mt-5">
-    <div class="text-5xl font-bold">Hardware ⚙️</div>
-    <div class="py-2">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Hardware ⚙️</div>
+  </div>
+
       <text class="text-lg">
         For my experiments, research, and teaching activities, I rely on Kali Linux OS as my primary platform. 
         To ensure versatility, I maintain multiple copies and versions of Kali Linux, each tailored to run different 
@@ -18,32 +16,21 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
         <p>&nbsp;</p> 
 
-
         Expanding beyond Kali Linux, I integrate Whonix and Tails into my testing arsenal. 
         Tails, in particular, is installed on a high-capacity 128GB USB drive, with a partition space allocated for persistent storage. 
         This setup enhances privacy and security while affording me the flexibility to conduct a wide range of experiments and assessments across 
         different operating systems and environments.
-        
-        <p>&nbsp;</p> 
 
+        <p>&nbsp;</p> 
 
         My personal lab is equipped with some specialized hardware tailored for comprehensive security testing, covering 
         OS, WiFi networks, and diverse attack vectors. From evaluating OS resilience to simulating phishing campaigns and conducting 
-        Man-in-the-Middle attacks, I leverage cutting-edge tools to ensure robust defense strategies.
-        
+        Man-in-the-Middle attacks, I leverage cutting-edge tools to ensure robust defense strategies. 
         <p>&nbsp;</p> 
 
-  
       </text>
-    </div>
 
-
-
-
-
-
-
-
+  <div class="divider my-0"></div>
   <HorizontalCard
     title="Flipper Zero"
     img="/hardware/flipper_zero.webp"
@@ -107,31 +94,4 @@ import HorizontalCard from "../components/HorizontalCard.astro";
     url="#"
   />
 
-
-
-  <!-- <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
-  </div>
-
-  <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 4"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  />
-  <div class="divider my-0"></div>
-  <HorizontalCard
-    title="Demo Project 5"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-  /> -->
 </BaseLayout>

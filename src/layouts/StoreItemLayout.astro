@@ -38,11 +38,11 @@ import { Image } from "astro:assets";
           {badge && <div class="badge badge-secondary mx-2">{badge}</div>}
         </h1>
         <div class="flex place-content-between items-center">
-          <!-- <div class="grow md:grow-0">
+          <div class="grow md:grow-0">
             <span class="text-xl mr-1"> {pricing}</span>
             <span class="text-md opacity-50 line-through">{oldPricing}</span>
-          </div> -->
-          <!-- <div>
+          </div>
+          <div>
             {
               custom_link && (
                 <a class="btn btn-outline grow md:grow-0 ml-4" href={custom_link} target="_blank">
@@ -51,7 +51,7 @@ import { Image } from "astro:assets";
               )
             }
             <a class="btn btn-primary grow md:grow-0 ml-4" href={checkoutUrl} target="_blank">Buy Now</a>
-          </div> -->
+          </div>
         </div>
       </div>
       <div class="divider my-2"></div>
