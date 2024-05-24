@@ -23,4 +23,4 @@ Probably it will no be the only subject of this blog. This space will also be us
 
 For the moment, that's it from my side. </b>
 
-See you soon!!
+See you soon!!!
