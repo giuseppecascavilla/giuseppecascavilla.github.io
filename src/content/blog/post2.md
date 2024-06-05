@@ -20,13 +20,21 @@ Lo strumento <b>Contesti</b> o <b>Keywords in Context</b> mostra ciascuna occorr
 
 <table><thead>
   <tr style="background-color:#faf7f5"> 
-    <th >Caposiena<iframe style='width: 437px; height: 372px;' src='https://www.voyant-tools.org/tool/Cirrus/?corpus=f1386e93534efe8630944011223e76dc'></iframe> </th>
-    <th>Colangelo<iframe style='width: 437px; height: 371px;' src='https://www.voyant-tools.org/tool/Cirrus/?corpus=4fba4de4a40d74cae36193fa4b022131'></iframe></th>
+    <th >Caposiena<iframe style='width: 437px; height: 372px;' src='https://voyant-tools.actusnews.com/tool/Cirrus/?corpus=c711612fb456540abfe5a0482cc8d0a5'></iframe>
+    <!--<object data="/blog_images/analisi_elezioni/CIRRUScaposiena.svg"></object>-->
+    </th>
+    <th>Colangelo<iframe style='width: 437px; height: 372px;' src='https://voyant-tools.actusnews.com/tool/Cirrus/?corpus=bdcbe81b2d2099077cb049732e70e52e'></iframe>
+    <!--<object data="/blog_images/analisi_elezioni/CIRRUScolangelo.svg"></object>-->
+    </th>
   </tr></thead>
 <tbody>
   <tr>
-    <th>Giuliani<iframe style='width: 437px; height: 372px;' src='https://www.voyant-tools.org/tool/Cirrus/?corpus=d05b3dea94c78549038b378a2ad26dd9'></iframe></th>
-    <th>Masucci<iframe style='width: 437px; height: 371px;' src='https://www.voyant-tools.org/tool/Cirrus/?corpus=6679cdfca223815c12e7a71afbc75c97'></iframe></th>
+    <th>Giuliani<iframe style='width: 437px; height: 372px;' src='https://voyant-tools.actusnews.com/tool/Cirrus/?corpus=2df497449028cf60639435ef2bd452e7'></iframe>
+    <!--<object data="/blog_images/analisi_elezioni/CIRRUSgiuliani.svg"></object>-->
+    </th>
+    <th>Masucci<iframe style='width: 437px; height: 372px;' src='https://voyant-tools.actusnews.com/tool/Cirrus/?corpus=7bde0a5a041521a5faa89804245595fd'></iframe>
+    <!--<object data="/blog_images/analisi_elezioni/CIRRUSmasucci.svg"></object>-->
+    </th>
   </tr>
 </tbody>
 </table>
@@ -37,13 +45,14 @@ A questo punto credo sia essenziale passare alla parte di CONTESTO relativamente
 
 <table><thead>
   <tr style="background-color:#faf7f5"> 
-    <th >Caposiena<iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=cittadini&docIndex=0&corpus=f1386e93534efe8630944011223e76dc'></iframe></th>
-    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=piano&docIndex=0&corpus=f1386e93534efe8630944011223e76dc'></iframe></th>
+    <th >Caposiena<iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=cittadini&docIndex=0&corpus=c711612fb456540abfe5a0482cc8d0a5'></iframe>   
+    </th>
+    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=piano&docIndex=0&corpus=c711612fb456540abfe5a0482cc8d0a5'></iframe></th>
   </tr></thead>
 <tbody>
   <tr>
-    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=obiettivo&docIndex=0&corpus=f1386e93534efe8630944011223e76dc'></iframe></th>
-    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=citt%C3%A0&docIndex=0&corpus=f1386e93534efe8630944011223e76dc'></iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=obiettivo&docIndex=0&corpus=c711612fb456540abfe5a0482cc8d0a5'></iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=citt%C3%A0&docIndex=0&corpus=c711612fb456540abfe5a0482cc8d0a5'></iframe></th>
   </tr>
 </tbody>
 </table>
@@ -61,12 +70,12 @@ Per quanto riguarda invece la parola "Piano" notiamo come questa keyword sia pre
 
 <table><thead>
   <tr style="background-color:#faf7f5"> 
-    <th >Colangelo<iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=sansevero&docIndex=0&corpus=4fba4de4a40d74cae36193fa4b022131'></iframe></th>
-    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=progetto&docIndex=0&corpus=4fba4de4a40d74cae36193fa4b022131'></iframe></th>
+    <th >Colangelo<iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=sansevero&docIndex=0&corpus=bdcbe81b2d2099077cb049732e70e52e'></iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=progetto&docIndex=0&corpus=bdcbe81b2d2099077cb049732e70e52e'></iframe></th>
   </tr></thead>
 <tbody>
   <tr>
-    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=citt%C3%A0&docIndex=0&corpus=4fba4de4a40d74cae36193fa4b022131'></iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=citt%C3%A0&docIndex=0&corpus=bdcbe81b2d2099077cb049732e70e52e'></iframe></th>
     <th></th>
   </tr>
 </tbody>
@@ -77,12 +86,12 @@ Per quanto riguarda la candidata Colangelo, ho preso in considerazione solo le K
 
 <table><thead>
   <tr style="background-color:#faf7f5"> 
-    <th >Giuliani<iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=sansevero&docIndex=0&corpus=d05b3dea94c78549038b378a2ad26dd9'></iframe></th>
-    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=sanit%C3%A0&docIndex=0&corpus=d05b3dea94c78549038b378a2ad26dd9'></iframe></th>
+    <th >Giuliani<iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=sansevero&docIndex=0&corpus=2df497449028cf60639435ef2bd452e7'></iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=sanit%C3%A0&docIndex=0&corpus=2df497449028cf60639435ef2bd452e7'></iframe></th>
   </tr></thead>
 <tbody>
   <tr>
-    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=fare&docIndex=0&corpus=d05b3dea94c78549038b378a2ad26dd9'></iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=fare&docIndex=0&corpus=2df497449028cf60639435ef2bd452e7'></iframe></th>
     <th></th>
   </tr>
 </tbody>
@@ -92,13 +101,13 @@ Anche per la candidata Giuliani, le keyword piú interessanti risultano essere 3
 
 <table><thead>
   <tr style="background-color:#faf7f5"> 
-    <th >Masucci<iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=territorio&docIndex=0&corpus=6679cdfca223815c12e7a71afbc75c97'></iframe></th>
-    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=sansevero&docIndex=0&corpus=6679cdfca223815c12e7a71afbc75c97'></iframe></th>
+    <th >Masucci<iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=territorio&docIndex=0&corpus=7bde0a5a041521a5faa89804245595fd'></iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=lavoro&docIndex=0&corpus=7bde0a5a041521a5faa89804245595fd'></iframe></th>
   </tr></thead>
 <tbody>
   <tr>
-    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=lavoro&docIndex=0&corpus=6679cdfca223815c12e7a71afbc75c97'></iframe></th>
-    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=sicurezza&docIndex=0&corpus=6679cdfca223815c12e7a71afbc75c97'></iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=sansevero&docIndex=0&corpus=7bde0a5a041521a5faa89804245595fd'></iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=sicurezza&docIndex=0&corpus=7bde0a5a041521a5faa89804245595fd'></iframe></th>
   </tr>
 </tbody>
 </table>
@@ -113,7 +122,7 @@ Se siete arrivati fino a qui, vi ringrazio. La mia analisi non ha in alcun modo 
               In base ad un breve testo che ti condivido dimmi quale candidato secondo te ha la ricetta
               migliore per risolvere i problemi della cittá:&ensp; &nbsp;</b></th> <!--<b>this is the bold text</b>-->
               <th>
-                <a href="/blog_images/chatGPT_elezioni_sansevero.webp" target="_blank" rel="noopener" title="jade_lab_site">
+                <a href="/blog_images/chatGPT_elezioni_sansevero.webp" target="_blank" rel="noopener" title="chat_gpt">
                 <Image src="/blog_images/chatgptLOGO.webp" loading="eager" alt="" width="200" height="45" style="display:inline-block"></Image></th><th style="float:right"></th>
               </a>
           </tr>
