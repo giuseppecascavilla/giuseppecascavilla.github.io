@@ -20,13 +20,13 @@ Lo strumento <b>Contesti</b> o <b>Keywords in Context</b> mostra ciascuna occorr
 
 <table><thead>
   <tr style="background-color:#faf7f5"> 
-    <th >Caposiena<iframe style='width: 437px; height: 372px;' src='http://www.voyant-tools.org/tool/Cirrus/?corpus=f1386e93534efe8630944011223e76dc'></iframe> </th>
-    <th>Colangelo<iframe style='width: 437px; height: 371px;' src='http://www.voyant-tools.org/tool/Cirrus/?corpus=4fba4de4a40d74cae36193fa4b022131'></iframe></th>
+    <th >Caposiena<iframe style='width: 437px; height: 372px;' src='https://www.voyant-tools.org/tool/Cirrus/?corpus=f1386e93534efe8630944011223e76dc'></iframe> </th>
+    <th>Colangelo<iframe style='width: 437px; height: 371px;' src='https://www.voyant-tools.org/tool/Cirrus/?corpus=4fba4de4a40d74cae36193fa4b022131'></iframe></th>
   </tr></thead>
 <tbody>
   <tr>
-    <th>Giuliani<iframe style='width: 437px; height: 372px;' src='http://www.voyant-tools.org/tool/Cirrus/?corpus=d05b3dea94c78549038b378a2ad26dd9'></iframe></th>
-    <th>Masucci<iframe style='width: 437px; height: 371px;' src='http://www.voyant-tools.org/tool/Cirrus/?corpus=6679cdfca223815c12e7a71afbc75c97'></iframe></th>
+    <th>Giuliani<iframe style='width: 437px; height: 372px;' src='https://www.voyant-tools.org/tool/Cirrus/?corpus=d05b3dea94c78549038b378a2ad26dd9'></iframe></th>
+    <th>Masucci<iframe style='width: 437px; height: 371px;' src='https://www.voyant-tools.org/tool/Cirrus/?corpus=6679cdfca223815c12e7a71afbc75c97'></iframe></th>
   </tr>
 </tbody>
 </table>
@@ -37,13 +37,13 @@ A questo punto credo sia essenziale passare alla parte di CONTESTO relativamente
 
 <table><thead>
   <tr style="background-color:#faf7f5"> 
-    <th >Caposiena<iframe style='width: 558px; height: 303px;' src='http://www.voyant-tools.org/tool/Contexts/?query=cittadini&docIndex=0&corpus=f1386e93534efe8630944011223e76dc'></iframe></th>
-    <th><iframe style='width: 558px; height: 303px;' src='http://www.voyant-tools.org/tool/Contexts/?query=piano&docIndex=0&corpus=f1386e93534efe8630944011223e76dc'></iframe></th>
+    <th >Caposiena<iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=cittadini&docIndex=0&corpus=f1386e93534efe8630944011223e76dc'></iframe></th>
+    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=piano&docIndex=0&corpus=f1386e93534efe8630944011223e76dc'></iframe></th>
   </tr></thead>
 <tbody>
   <tr>
-    <th><iframe style='width: 558px; height: 303px;' src='http://www.voyant-tools.org/tool/Contexts/?query=obiettivo&docIndex=0&corpus=f1386e93534efe8630944011223e76dc'></iframe></th>
-    <th><iframe style='width: 558px; height: 303px;' src='http://www.voyant-tools.org/tool/Contexts/?query=citt%C3%A0&docIndex=0&corpus=f1386e93534efe8630944011223e76dc'></iframe></th>
+    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=obiettivo&docIndex=0&corpus=f1386e93534efe8630944011223e76dc'></iframe></th>
+    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=citt%C3%A0&docIndex=0&corpus=f1386e93534efe8630944011223e76dc'></iframe></th>
   </tr>
 </tbody>
 </table>
@@ -61,12 +61,12 @@ Per quanto riguarda invece la parola "Piano" notiamo come questa keyword sia pre
 
 <table><thead>
   <tr style="background-color:#faf7f5"> 
-    <th >Colangelo<iframe style='width: 558px; height: 303px;' src='http://www.voyant-tools.org/tool/Contexts/?query=sansevero&docIndex=0&corpus=4fba4de4a40d74cae36193fa4b022131'></iframe></th>
-    <th><iframe style='width: 558px; height: 303px;' src='http://www.voyant-tools.org/tool/Contexts/?query=progetto&docIndex=0&corpus=4fba4de4a40d74cae36193fa4b022131'></iframe></th>
+    <th >Colangelo<iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=sansevero&docIndex=0&corpus=4fba4de4a40d74cae36193fa4b022131'></iframe></th>
+    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=progetto&docIndex=0&corpus=4fba4de4a40d74cae36193fa4b022131'></iframe></th>
   </tr></thead>
 <tbody>
   <tr>
-    <th><iframe style='width: 558px; height: 303px;' src='http://www.voyant-tools.org/tool/Contexts/?query=citt%C3%A0&docIndex=0&corpus=4fba4de4a40d74cae36193fa4b022131'></iframe></th>
+    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=citt%C3%A0&docIndex=0&corpus=4fba4de4a40d74cae36193fa4b022131'></iframe></th>
     <th></th>
   </tr>
 </tbody>
@@ -77,12 +77,12 @@ Per quanto riguarda la candidata Colangelo, ho preso in considerazione solo le K
 
 <table><thead>
   <tr style="background-color:#faf7f5"> 
-    <th >Giuliani<iframe style='width: 558px; height: 303px;' src='http://www.voyant-tools.org/tool/Contexts/?query=sansevero&docIndex=0&corpus=d05b3dea94c78549038b378a2ad26dd9'></iframe></th>
-    <th><iframe style='width: 558px; height: 303px;' src='http://www.voyant-tools.org/tool/Contexts/?query=sanit%C3%A0&docIndex=0&corpus=d05b3dea94c78549038b378a2ad26dd9'></iframe></th>
+    <th >Giuliani<iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=sansevero&docIndex=0&corpus=d05b3dea94c78549038b378a2ad26dd9'></iframe></th>
+    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=sanit%C3%A0&docIndex=0&corpus=d05b3dea94c78549038b378a2ad26dd9'></iframe></th>
   </tr></thead>
 <tbody>
   <tr>
-    <th><iframe style='width: 558px; height: 303px;' src='http://www.voyant-tools.org/tool/Contexts/?query=fare&docIndex=0&corpus=d05b3dea94c78549038b378a2ad26dd9'></iframe></th>
+    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=fare&docIndex=0&corpus=d05b3dea94c78549038b378a2ad26dd9'></iframe></th>
     <th></th>
   </tr>
 </tbody>
@@ -92,13 +92,13 @@ Anche per la candidata Giuliani, le keyword piú interessanti risultano essere 3
 
 <table><thead>
   <tr style="background-color:#faf7f5"> 
-    <th >Masucci<iframe style='width: 558px; height: 303px;' src='http://www.voyant-tools.org/tool/Contexts/?query=territorio&docIndex=0&corpus=6679cdfca223815c12e7a71afbc75c97'></iframe></th>
-    <th><iframe style='width: 558px; height: 303px;' src='http://www.voyant-tools.org/tool/Contexts/?query=sansevero&docIndex=0&corpus=6679cdfca223815c12e7a71afbc75c97'></iframe></th>
+    <th >Masucci<iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=territorio&docIndex=0&corpus=6679cdfca223815c12e7a71afbc75c97'></iframe></th>
+    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=sansevero&docIndex=0&corpus=6679cdfca223815c12e7a71afbc75c97'></iframe></th>
   </tr></thead>
 <tbody>
   <tr>
-    <th><iframe style='width: 558px; height: 303px;' src='http://www.voyant-tools.org/tool/Contexts/?query=lavoro&docIndex=0&corpus=6679cdfca223815c12e7a71afbc75c97'></iframe></th>
-    <th><iframe style='width: 558px; height: 303px;' src='http://www.voyant-tools.org/tool/Contexts/?query=sicurezza&docIndex=0&corpus=6679cdfca223815c12e7a71afbc75c97'></iframe></th>
+    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=lavoro&docIndex=0&corpus=6679cdfca223815c12e7a71afbc75c97'></iframe></th>
+    <th><iframe style='width: 558px; height: 303px;' src='https://www.voyant-tools.org/tool/Contexts/?query=sicurezza&docIndex=0&corpus=6679cdfca223815c12e7a71afbc75c97'></iframe></th>
   </tr>
 </tbody>
 </table>
