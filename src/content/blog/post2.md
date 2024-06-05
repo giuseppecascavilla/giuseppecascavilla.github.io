@@ -14,8 +14,8 @@ Tralasciando le elezioni Europee dove tutto sommato le idee politiche sono ben d
 Per questa analisi ho recuperato i programmi elettorali di tutti i nostri candidati disponibili <a href="https://www.comune.san-severo.fg.it/elezioni-comunali-2024-programma-elettorale-delle-liste/" target="_blank"><b>QUI</b></a>. Lasciatemi esprimere un commento, alcuni molto bel scritti, altri decisamente troppo scarni e, a mio modesto parere, poveri(ssimi) di contenuti. Tuttavia, dato che le primesse politiche solitamente non vengono mai messe per iscritto, ho deciso di recuperare alcuni video dove i nostri candidati fanno importanti annunci, estrarre il parlato, e integrare i programmi politici di tutti i candidati cosi da non introdurre bias (pregiudizi). Non tratteró qui le differenze tra i programmi pubblicati e i vari annunci fatti nei vari comizi, anche perché praticamente si potrebbe concludere qui la discussione. Ma come Data Scientist ho deciso di andare avanti nella mia indagine. </b>
 
 Come interpretare i risultati:<br>
-Il <b>CIRRUS</b> é un visualizzatore della frequenza dei termini, piú il termine é grande piú significa che é stato ripetuto ed usato nel testo analizzato. 
-Lo strumento <b>Contesti</b> o <b>Keywords in Context</b> mostra ciascuna occorrenza di ciascuna parola chiave con un frammento di test oche lo circonda (il contesto). In questo modo riusciamo a capire meglio in che contresto le parole chiave sono state utilizzate. 
+Il <b>CIRRUS</b> é un visualizzatore della frequenza dei termini, piú il termine é grande piú significa che é stato ripetuto ed usato nel testo analizzato.<br> 
+Lo strumento <b>Contesti</b> o <b>Keywords in Context</b> mostra ciascuna occorrenza di ciascuna parola chiave con un frammento di testo che lo circonda (il contesto). In questo modo riusciamo a capire meglio in che contresto le parole chiave sono state utilizzate. 
 
 
 <table><thead>
