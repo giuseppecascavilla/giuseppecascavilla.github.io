@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /store/
 Allow: /
 
-Sitemap: https://giuseppecascavilla.github.io/dist/sitemap-index.xml
+Sitemap: https://giuseppecascavilla.github.io/sitemap-index.xml
