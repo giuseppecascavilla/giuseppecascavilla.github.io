@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Forensics Analysis</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <nav class="bg-gray-800 p-4">
+        <div class="flex justify-between">
+            <a href="./index.html" class="text-white">Home</a>
+            <a href="./about.html" class="text-white">About the Project</a>
+        </div>
+    </nav>
+    <div class="text-center p-4">
+        <h1 class="text-4xl text-red-400 font-bold">About the Project</h1>
+
+        <p class="text-lg">
+            This project was an assignment for the Data Forensics course (JM2040-M-6) at JADS for the master Data Science in Business and Entrepreneurship.
+        </p>
+    </div>
+    <div class="flex justify-center">
+        <div class="mt-8 w-1/2">
+            <h2 class="text-2xl font-bold">The project</h2>
+            <p class="text-lg">For this project we analyzed data we gathered from the Cocorico Marketplace that can be
+                found on the Dark Web.
+                The goal of this project is to provide insights in the drugs that are being sold on the marketplace and
+                to provide a better understanding of drug sales on the Dark Web.
+                We hope to find patterns in the data that can help Law Enforcement Agencies (LEAs) in their fight
+                against drug trafficking.
+            </p>
+        </div>
+    </div>
+
+    <div class="flex justify-center">
+        <div class="mt-8 w-1/2 pb-8">
+            <h2 class="text-2xl font-bold">Methodology</h2>
+            <p class="text-lg"> To gather our data we used a crawler and two scrapers: one to gather product data
+                and one to gather data on the categories. After scraping, the data was processed and
+                analysed in Python using the Pandas and Regex libraries. The data was then visualized using
+                Matplotlib and Seaborn.
+                
+            </p>
+            <div>
+                <h3 class="text-xl font-bold">Crawling</h3>
+                <p class="text-lg"> For 35 days, we crawled the Cocorico Marketplace and gathered data on the products
+                    that were being sold.
+                    We collected data on the different drug categories and the individual products. The product data
+                    includes the price, availability, number of views, seller and its rating. We only crawled
+                    drug-related pages by analysing the URL structure and filtering out non-drug related pages.
+                    
+                </p>
+            </div>
+            <div>
+                <h3 class="text-xl font-bold">Scraping</h3>
+                <p class="text-lg"> We created two scrapers: one to gather product data and one to gather data on the
+                    categories. The scrapers were written in Python using the BeautifulSoup library and looped through
+                    all the crawled files.
+                    The product scraper collected data on the individual products, including the price, availability,
+                    number of views, seller and its rating.
+                    The category scraper collected data on the different drug categories and the number of products in
+                    each category.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

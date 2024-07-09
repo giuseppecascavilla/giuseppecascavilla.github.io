@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data Forensics Analysis</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@latest"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- viewport -->
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, height=device-height, target-densitydpi=device-dpi" />
+    <style>
+        body {
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="bg-gray-800 p-4">
+        <div class="flex justify-between">
+            <a href="./index.html" class="text-white">Home</a>
+            <a href="./about.html" class="text-white">About the Project</a>
+        </div>
+    </nav>
+
+    <nav class="fixed top-1/4 left-0 p-4 w-64 z-10 hidden lg:block">
+        <div class="border rounded-lg shadow-lg p-8 flex flex-col text-black ">
+            <h2 class="text-xl font-bold">Table of Contents</h2>
+            <a href="#project" class="font-semibold hover:text-gray-500">The Project</a>
+            <a href="#category-analysis" class="font-semibold hover:text-gray-500">Category Analysis</a>
+            <a href="#product-analysis" class="font-semibold hover:text-gray-500">Product Analysis</a>
+            <a href="#statistics" class="ml-4 hover:text-gray-500">Statistics</a>
+            <a href="#rating-distribution" class="ml-4 hover:text-gray-500">Rating Distribution</a>
+            <a href="#price-distribution" class="ml-4 hover:text-gray-500">Price Distribution</a>
+            <a href="#views" class="ml-4 hover:text-gray-500">Views</a>
+            <a href="#availability" class="ml-4 hover:text-gray-500">Availability</a>
+            <a href="#seller-analysis" class="font-semibold hover:text-gray-500">Seller Analysis</a>
+            <a href="#seller-products" class="ml-4 hover:text-gray-500">Product Count</a>
+            <a href="#seller-categories" class="ml-4 hover:text-gray-500">Categories</a>
+            <a href="#seller-views" class="ml-4 hover:text-gray-500">View Count</a>
+        </div>
+    </nav>
+
+    <div class="text-center p-4 flex flex-col justify-center items-center">
+        <h1 class="text-4xl text-red-400 font-bold w-1/2 mb-8">Welcome to the Data Forensics Analysis Homepage</h1>
+
+        <p class="text-lg w-1/2">Insights in drugs on the Cocorico Marketplace, including categories, products and
+            sellers.
+        </p>
+    </div>
+    <div class="flex justify-center">
+        <div class="pt-8 lg:w-1/2 w-4/5" id="project">
+            <h2 class="text-2xl font-bold">The project</h2>
+            <p class="text-lg">For this project we analyzed data we gathered from the Cocorico Marketplace that can be
+                found on the Dark Web.
+                The goal of this project is to provide insights in the drugs that are being sold on the marketplace and
+                to provide a better understanding of drug sales on the Dark Web.
+                We hope to find patterns in the data that can help Law Enforcement Agencies (LEAs) in their fight
+                against drug trafficking.
+            </p>
+            <a href="about.html" class="text-blue-600">Learn more about the project</a>
+        </div>
+    </div>
+    <div class="flex justify-center">
+        <div class="lg:w-1/2 w-4/5 pt-8" id="category-analysis">
+            <h2 class="text-2xl font-bold">Category Analysis</h2>
+            <div class="flex justify-center">
+                <!-- <div class="w-3/4 border p-8 rounded-xl shadow-lg">
+                    <canvas id="chart"></canvas>
+                </div> -->
+                <iframe src="./Media/categories.html" class="m-8 p-4 border rounded-lg shadow-xl w-full" height="500px"></iframe>
+            </div>
+            <p class="text-lg">As you can see, Cannabis is the largest category, followed by ecstacy and stimulants.</p>
+        </div>
+    </div>
+
+    <div class="flex justify-center">
+        <div class="lg:w-1/2 w-4/5 pt-8 h-full" id="product-analysis">
+            <h2 class="text-2xl font-bold">Product Analysis</h2>
+            <h3 class="text-xl font-semibold my-2 pt-8" id="statistics">Statistics</h3>
+            <div>
+                <div class="flex flex-row justify-center items-center text-center gap-4">
+                    <p class="text-lg w-1/2 text-right">Number of products:</p>
+                    <p class="text-4xl font-semibold w-1/2 text-left">416 <span
+                            class="text-3xl font-semibold">products</span></p>
+                </div>
+                <div class="flex flex-row justify-center items-center text-center gap-4">
+                    <p class="text-lg w-1/2 text-right">Average price:</p>
+                    <p class="text-4xl font-semibold w-1/2 text-left">€200.73</p>
+                </div>
+                <div class="flex flex-row justify-center items-center text-center gap-4">
+                    <p class="text-lg w-1/2 text-right">Average rating:</p>
+                    <p class="text-4xl font-semibold w-1/2 text-left">4.14 <span
+                            class="text-3xl font-semibold">stars</span>
+                    </p>
+                </div>
+                <div class="flex flex-row justify-center items-center text-center gap-4">
+                    <p class="text-lg w-1/2 text-right">Average availability:</p>
+                    <p class="text-4xl font-semibold w-1/2 text-left">3844 <span
+                            class="text-3xl font-semibold">items</span>
+                    </p>
+                </div>
+                <div class="flex flex-row justify-center items-center text-center gap-4">
+                    <p class="text-lg w-1/2 text-right">Average number of views:</p>
+                    <p class="text-4xl font-semibold w-1/2 text-left">13786 <span
+                            class="text-3xl font-semibold">views</span></p>
+                </div>
+                <div class="flex flex-row justify-center items-center text-center gap-4">
+                    <p class="text-lg w-1/2 text-right">Number of sellers:</p>
+                    <p class="text-4xl font-semibold w-1/2 text-left">26 <span
+                            class="text-3xl font-semibold">sellers</span>
+                    </p>
+                </div>
+            </div>
+            <h3 class="text-xl font-semibold my-4 pt-8" id="rating-distribution">Rating Distribution:</h3>
+            <p class="text-lg">The products' ratings did not change in the period we crawled the data. All products had
+                a rating of 4 or 5 stars, with 86% of the products having a 4-star rating.</p>
+            <iframe src="./Media/rating.html" class="m-8 p-4 border rounded-lg shadow-xl w-full" height="500px"></iframe>
+
+            <h3 class="text-xl font-semibold my-4 pt-8" id="price-distribution">Price Distribution:</h3>
+            <p class="text-lg">The product prices did not change in the period we crawled the data. The following
+                figures show the distribution of the prices. The different products all sell in different amounts, which
+                is not taken into account in these plots.</p>
+            <div class="m-8 p-4 border rounded-lg shadow-xl">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="changeProductPriceImage(0)">All</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="changeProductPriceImage(1)">Under 1000</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="changeProductPriceImage(2)">Under 500</button>
+                <iframe id="productPriceFrame" src="./Media/all_prices.html" class="w-full h-96"></iframe>
+            </div>
+            <p class="text-lg">As mentioned in the statistics section, the average price is approximately €200. The
+                histogram
+                shows that the distribution in prices is skewed to the right, with 9 products having a price above
+                €1000. The median price is actually only €90, and the histogram bin with the most values in it ranges
+                from €0-100, €40-60 and €70-80 depending on what plot you look at. Generally, most prices fall below
+                €100, with more expensive products going towards €400-500 and extreme cases being higher than €1000.
+            </p>
+            <h3 class="text-xl font-semibold my-4 pt-8" id="views">Views:</h3>
+            <p class="text-lg">The following figures show how the views increase over time. The subset is a selection of
+                products with a large variance of views. The products with the highest and lowest amounts of views are
+                included, as well as a set inbetween.</p>
+            <div class="m-8 p-4 border rounded-lg shadow-xl w-full">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="changeProductViewsImage(0)">Total</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="changeProductViewsImage(1)">Per category</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="changeProductViewsImage(2)">Subset of products</button>
+                <iframe id="productViewsFrame" src="./Media/total_views.html" class="w-full h-96"></iframe>
+            </div>
+            <p class="text-lg"> Generally, the number of views increases, as each day new views are added to the
+                previous total. There is a remarkable spike on April 18th, for some of the products. This could be due
+                to a processing error, as it is unlikely that views go back down. The views per category plot shows that
+                this does happen more often, which is odd.
+            </p>
+            <p class="text-lg">The following plots show the difference in the amount of views compared to the previous
+                crawled date. Note that this is not always a one-day difference, as the data was not successfully
+                crawled every day.
+                The subset of products is the same subset as above.
+            </p>
+            <div class="m-8 p-4 border rounded-lg shadow-xl w-full">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="changeProductViewsChangeImage(0)">Total</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="changeProductViewsChangeImage(1)">Per category</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="changeProductViewsChangeImage(2)">Subset of products</button>
+                <iframe id="productViewsChangeFrame" src="./Media/total_views_difference.html" class="w-full"
+                    height="500px"></iframe>
+            </div>
+            <h3 class="text-xl font-semibold my-4 pt-8" id="availability">Availability:</h3>
+            <p class="text-lg">The following figure shows how the total availability changes over time. It can be seen
+                that some of the changes are very large, which could indicate certain moments of big buying waves and
+                stocking moments.
+            <div class="m-8 p-4 border rounded-lg shadow-xl w-full">
+                <iframe id="productAvailabilityFrame" src="./Media/total_availability.html"
+                    class="w-full h-96"></iframe>
+            </div>
+            <p class="text-lg">The following visualizations show the total availability per day per category. It is
+                possible to single out products by clicking on the legend, but for ease they have also been grouped into
+                large, medium and small categories. The large category consist of the Cannabis category, which has the
+                highest availability. The medium categories include the Ecstasy, Psychedelics, Stimulants and Tobacco
+                categories, which have a medium high availability. The other categories are grouped as small categories,
+                as they have the lowest availability. </p>
+            <div class="m-8 p-4 border rounded-lg shadow-xl w-full">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="changeCategoryAvailabilityImage(3)">All categories</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="changeCategoryAvailabilityImage(0)">Large categories</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="changeCategoryAvailabilityImage(1)">Medium categories</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="changeCategoryAvailabilityImage(2)">Small categories</button>
+                <iframe id="categoryAvailabilityFrame" src="./Media/availability_category.html"
+                    class="w-full h-96"></iframe>
+            </div>
+            <p class="text-lg">The following visualizations show the difference in availability compared to the previous
+                crawled date. Note that this is not always a one-day difference, as the data was not successfully crawled
+                every day.</p>
+            <div class="m-8 p-4 border rounded-lg shadow-xl w-full">
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="changeProductAvailabilityChangeImage(0)">Total</button>
+                <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    onclick="changeProductAvailabilityChangeImage(1)">Per category</button>
+                <iframe id="productAvailabilityChangeFrame" src="./Media/total_availability_difference.html"
+                    class="w-full" height="500px"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="flex justify-center">
+        <div class="lg:w-1/2 w-4/5 h-full pt-8" id="seller-analysis">
+            <h2 class="text-2xl font-bold">Seller Analysis</h2>
+            <p class="text-lg">In the period we crawled the data, we found 26 different sellers. The following figures
+                show some insights into the different sellers.</p>
+            <div>
+                <h3 class="text-xl font-semibold my-4 pt-8" id="seller-products">Product count:</h3>
+                <iframe src="./Media/seller.html" class="m-8 p-4 border rounded-lg shadow-xl w-full"
+                    height="700px"></iframe>
+                <p class="text-lg">The plot shows the amount of products each seller has on the marketplace. The seller
+                    with the most products has 109 products (Hellbin), while the sellers with the least amount of
+                    products have only 1 product (DolceGusto and Projeccao). The average amount of products per seller
+                    is 16, but this is heavily skewed by Hellbin.</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold my-4 pt-8" id="seller-categories">Categories:</h3>
+                <iframe src="./Media/seller_categories.html" class="m-8 p-4 border rounded-lg shadow-xl w-full"
+                    height="700px"></iframe>
+                <p class="text-lg">The plot shows the amount of products each seller has in each category. The most
+                    common category is Cannabis, which 22 of the sellers trade in. Other popular categories are
+                    Stimulants and Ecstasy, in which 7 and 6 sellers are active. The least common category is Benzos, in
+                    which only Hellbin sells products. The other categories are sold by 2 to 5 sellers.</p>
+            </div>
+            <div>
+                <h3 class="text-xl font-semibold my-4 pt-8" id="seller-views">View count:</h3>
+                <iframe src="./Media/seller_views.html" class="m-8 p-4 border rounded-lg shadow-xl w-full"
+                    height="700px"></iframe>
+                <p class="text-lg mb-8">Here we can see the amount of views each seller has on the marketplace.
+                    Remarkebly,
+                    Hellbin, who has sells the most products, is only the 13th most viewed seller. The seller with the
+                    most views is DolceGusto, who only sells one product: Casey Jones Indoor for €5 per gram, in the
+                    Cannabis category. LePetitPrince and RevenantChild also have a high amount of views. The seller with
+                    the lowest number of views is Grenouillebleu, who sells 4 products in the Cannabis category.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function changeProductAvailabilityChangeImage(image_number) {
+            const productAvailabilityChangeFrame = document.getElementById("productAvailabilityChangeFrame");
+            if (image_number === 0) productAvailabilityChangeFrame.src = "./Media/total_availability_difference.html";
+            if (image_number === 1) productAvailabilityChangeFrame.src = "./Media/availability_category_change.html";
+            // if (image_number === 2) productAvailabilityChangeFrame.src = "./Media/availability_category_change.html";
+        }
+
+        function changeCategoryAvailabilityImage(image_number) {
+            const categoryAvailabilityFrame = document.getElementById("categoryAvailabilityFrame");
+            if (image_number === 0) categoryAvailabilityFrame.src = "./Media/availability_cannabis.html";
+            if (image_number === 1) categoryAvailabilityFrame.src = "./Media/availability_medium_category.html";
+            if (image_number === 2) categoryAvailabilityFrame.src = "./Media/availability_small_category.html";
+            if (image_number === 3) categoryAvailabilityFrame.src = "./Media/availability_category.html";
+        }
+
+        function changeProductViewsImage(image_number) {
+            const productViewsFrame = document.getElementById("productViewsFrame");
+            if (image_number === 0) productViewsFrame.src = "./Media/total_views.html";
+            if (image_number === 1) productViewsFrame.src = "./Media/views_category.html";
+            if (image_number === 2) productViewsFrame.src = "./Media/views_per_product.html";
+        }
+
+        function changeProductViewsChangeImage(image_number) {
+            const productViewsChangeFrame = document.getElementById("productViewsChangeFrame");
+            if (image_number === 0) productViewsChangeFrame.src = "./Media/total_views_difference.html";
+            if (image_number === 1) productViewsChangeFrame.src = "./Media/views_category_change.html";
+            if (image_number === 2) productViewsChangeFrame.src = "./Media/views_change_products.html";
+        }
+
+        function changeProductPriceImage(image_number) {
+            const productPriceFrame = document.getElementById("productPriceFrame");
+            if (image_number === 0) productPriceFrame.src = "./Media/all_prices.html";
+            if (image_number === 1) productPriceFrame.src = "./Media/under_1000_prices.html";
+            if (image_number === 2) productPriceFrame.src = "./Media/under_500_prices.html";
+        }
+
+
+        // async function getData() {
+        //     const response = await fetch('./Media/unpivoted_catalogue.csv');
+        //     const data = await response.text();
+        //     const rows = data.split('\n').slice(1);
+        //     const products = rows.map(row => {
+        //         const columns = row.split(',');
+        //         return {
+        //             date: columns[1],
+        //             category_name: columns[2],
+        //             category_value: columns[3],
+        //         };
+        //     });
+        //     return products;
+        // }
+
+        // getData().then(products => {
+        //     const ctx = document.getElementById('chart').getContext('2d');
+        //     // make a pie chart with Seller with Views
+        //     const category_totals = products.reduce((acc, product) => {
+        //         if (acc[product.category_name]) {
+        //             acc[product.category_name].count += 1;
+        //             acc[product.category_name].total += parseInt(product.category_value);
+        //         } else {
+        //             acc[product.category_name] = {
+        //                 count: 1,
+        //                 total: parseInt(product.category_value)
+        //             };
+        //         }
+        //         return acc;
+        //     }, {});
+
+        //     Object.keys(category_totals).forEach(category => {
+        //         category_totals[category] = category_totals[category].total / category_totals[category].count;
+        //     });
+
+        //     const category_chart = new Chart(ctx, {
+        //         type: 'pie',
+        //         data: {
+        //             labels: Object.keys(category_totals),
+        //             datasets: [{
+        //                 label: 'Category',
+        //                 data: Object.values(category_totals),
+        //                 backgroundColor: products.map(product => `rgba(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255}, 0.5)`),
+        //             }]
+        //         },
+        //         options: {
+        //             scales: {
+        //                 yAxes: [{
+        //                     ticks: {
+        //                         beginAtZero: true
+        //                     }
+        //                 }]
+        //             }
+        //         }
+        //     });
+        // });
+    </script>
+</body>
+
+</html>
