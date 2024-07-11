@@ -5,6 +5,18 @@ pubDate: "Jul 09 2024"
 heroImage: "/blog_images/dataforensics.webp"
 tags: ["JADS","DataForensics","Academia"]
 ---
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GHQNCCNPV0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GHQNCCNPV0');
+</script>
+<!-- Google tag (gtag.js) -->
+
+
 
 <div class="text-5xl font-bold">Data Forensics Course</div>
 
