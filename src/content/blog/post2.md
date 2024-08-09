@@ -32,16 +32,12 @@ Lo strumento <b>Contesti</b> o <b>Keywords in Context</b> mostra ciascuna occorr
 
 <table><thead>
   <tr style="background-color:#faf7f5"> 
-    <th >Caposiena<iframe style='width: 437px; height: 372px;' 
-    src='http://www.voyant-tools.org/tool/Cirrus/?corpus=5d208fb613052a78f4971e167549b318'>
-    </iframe>
+    <th >Caposiena<iframe style='width: 437px; height: 372px;' src='http://www.voyant-tools.org/tool/Cirrus/?corpus=5d208fb613052a78f4971e167549b318'></iframe>
     <!--<object data="/blog_images/analisi_elezioni/CIRRUScaposiena.svg"></object>
     old cirrus link     src='https://voyant-tools.actusnews.com/tool/Cirrus/?corpus=c711612fb456540abfe5a0482cc8d0a5'>
     -->
     </th>
-    <th>Colangelo<iframe style='width: 437px; height: 372px;' 
-    src='http://www.voyant-tools.org/tool/Cirrus/?corpus=47d6e9f69e66ef01a6072cb991266951'>
-    </iframe>
+    <th>Colangelo<iframe style='width: 437px; height: 372px;' src='http://www.voyant-tools.org/tool/Cirrus/?corpus=47d6e9f69e66ef01a6072cb991266951'></iframe>
     <!--<object data="/blog_images/analisi_elezioni/CIRRUScolangelo.svg"></object>
     old frame     src='https://voyant-tools.actusnews.com/tool/Cirrus/?corpus=bdcbe81b2d2099077cb049732e70e52e'>
     -->
@@ -49,16 +45,12 @@ Lo strumento <b>Contesti</b> o <b>Keywords in Context</b> mostra ciascuna occorr
   </tr></thead>
 <tbody>
   <tr>
-    <th>Giuliani<iframe style='width: 437px; height: 372px;' 
-    src='http://www.voyant-tools.org/tool/Cirrus/?corpus=0ba76286364f3662433e787c0bc5e9ff'>
-    </iframe>
+    <th>Giuliani<iframe style='width: 437px; height: 372px;' src='http://www.voyant-tools.org/tool/Cirrus/?corpus=0ba76286364f3662433e787c0bc5e9ff'></iframe>
     <!--<object data="/blog_images/analisi_elezioni/CIRRUSgiuliani.svg"></object>
     old link     src='https://voyant-tools.actusnews.com/tool/Cirrus/?corpus=2df497449028cf60639435ef2bd452e7'>
     -->
     </th>
-    <th>Masucci<iframe style='width: 437px; height: 372px;' 
-    src='http://www.voyant-tools.org/tool/Cirrus/?corpus=85ec7f33b38e5eca8b22cc934386d053'>
-    </iframe>
+    <th>Masucci<iframe style='width: 437px; height: 372px;' src='http://www.voyant-tools.org/tool/Cirrus/?corpus=85ec7f33b38e5eca8b22cc934386d053'></iframe>
     <!--<object data="/blog_images/analisi_elezioni/CIRRUSmasucci.svg"></object>
     old link     src='https://voyant-tools.actusnews.com/tool/Cirrus/?corpus=7bde0a5a041521a5faa89804245595fd'>
 -->
