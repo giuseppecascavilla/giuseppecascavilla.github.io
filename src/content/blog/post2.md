@@ -32,20 +32,36 @@ Lo strumento <b>Contesti</b> o <b>Keywords in Context</b> mostra ciascuna occorr
 
 <table><thead>
   <tr style="background-color:#faf7f5"> 
-    <th >Caposiena<iframe style='width: 437px; height: 372px;' src='https://voyant-tools.actusnews.com/tool/Cirrus/?corpus=c711612fb456540abfe5a0482cc8d0a5'></iframe>
-    <!--<object data="/blog_images/analisi_elezioni/CIRRUScaposiena.svg"></object>-->
+    <th >Caposiena<iframe style='width: 437px; height: 372px;' 
+    src='http://www.voyant-tools.org/tool/Cirrus/?corpus=5d208fb613052a78f4971e167549b318'>
+    </iframe>
+    <!--<object data="/blog_images/analisi_elezioni/CIRRUScaposiena.svg"></object>
+    old cirrus link     src='https://voyant-tools.actusnews.com/tool/Cirrus/?corpus=c711612fb456540abfe5a0482cc8d0a5'>
+    -->
     </th>
-    <th>Colangelo<iframe style='width: 437px; height: 372px;' src='https://voyant-tools.actusnews.com/tool/Cirrus/?corpus=bdcbe81b2d2099077cb049732e70e52e'></iframe>
-    <!--<object data="/blog_images/analisi_elezioni/CIRRUScolangelo.svg"></object>-->
+    <th>Colangelo<iframe style='width: 437px; height: 372px;' 
+    src='http://www.voyant-tools.org/tool/Cirrus/?corpus=47d6e9f69e66ef01a6072cb991266951'>
+    </iframe>
+    <!--<object data="/blog_images/analisi_elezioni/CIRRUScolangelo.svg"></object>
+    old frame     src='https://voyant-tools.actusnews.com/tool/Cirrus/?corpus=bdcbe81b2d2099077cb049732e70e52e'>
+    -->
     </th>
   </tr></thead>
 <tbody>
   <tr>
-    <th>Giuliani<iframe style='width: 437px; height: 372px;' src='https://voyant-tools.actusnews.com/tool/Cirrus/?corpus=2df497449028cf60639435ef2bd452e7'></iframe>
-    <!--<object data="/blog_images/analisi_elezioni/CIRRUSgiuliani.svg"></object>-->
+    <th>Giuliani<iframe style='width: 437px; height: 372px;' 
+    src='http://www.voyant-tools.org/tool/Cirrus/?corpus=0ba76286364f3662433e787c0bc5e9ff'>
+    </iframe>
+    <!--<object data="/blog_images/analisi_elezioni/CIRRUSgiuliani.svg"></object>
+    old link     src='https://voyant-tools.actusnews.com/tool/Cirrus/?corpus=2df497449028cf60639435ef2bd452e7'>
+    -->
     </th>
-    <th>Masucci<iframe style='width: 437px; height: 372px;' src='https://voyant-tools.actusnews.com/tool/Cirrus/?corpus=7bde0a5a041521a5faa89804245595fd'></iframe>
-    <!--<object data="/blog_images/analisi_elezioni/CIRRUSmasucci.svg"></object>-->
+    <th>Masucci<iframe style='width: 437px; height: 372px;' 
+    src='http://www.voyant-tools.org/tool/Cirrus/?corpus=85ec7f33b38e5eca8b22cc934386d053'>
+    </iframe>
+    <!--<object data="/blog_images/analisi_elezioni/CIRRUSmasucci.svg"></object>
+    old link     src='https://voyant-tools.actusnews.com/tool/Cirrus/?corpus=7bde0a5a041521a5faa89804245595fd'>
+-->
     </th>
   </tr>
 </tbody>
@@ -57,14 +73,34 @@ A questo punto credo sia essenziale passare alla parte di CONTESTO relativamente
 
 <table><thead>
   <tr style="background-color:#faf7f5"> 
-    <th >Caposiena<iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=cittadini&docIndex=0&corpus=c711612fb456540abfe5a0482cc8d0a5'></iframe>   
+    <th >Caposiena<iframe style='width: 558px; height: 250px;' 
+        src='http://www.voyant-tools.org/tool/Contexts/?query=cittadini&docIndex=0&expand=5&corpus=5d208fb613052a78f4971e167549b318'>
+    </iframe>  
+            <!--old context link     
+    src='https://voyant-tools.actusnews.com/tool/Contexts/?query=cittadini&docIndex=0&corpus=c711612fb456540abfe5a0482cc8d0a5'>
+        --> 
     </th>
-    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=piano&docIndex=0&corpus=c711612fb456540abfe5a0482cc8d0a5'></iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' 
+        src='http://www.voyant-tools.org/tool/Contexts/?query=piano&docIndex=0&expand=5&corpus=5d208fb613052a78f4971e167549b318'>
+    </iframe></th>
+        <!--old context link     
+        src='https://voyant-tools.actusnews.com/tool/Contexts/?query=piano&docIndex=0&corpus=c711612fb456540abfe5a0482cc8d0a5'>
+        -->
   </tr></thead>
 <tbody>
   <tr>
-    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=obiettivo&docIndex=0&corpus=c711612fb456540abfe5a0482cc8d0a5'></iframe></th>
-    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=citt%C3%A0&docIndex=0&corpus=c711612fb456540abfe5a0482cc8d0a5'></iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' 
+    src='http://www.voyant-tools.org/tool/Contexts/?query=obiettivo&docIndex=0&expand=5&corpus=5d208fb613052a78f4971e167549b318'>
+            <!--old context link     
+            src='https://voyant-tools.actusnews.com/tool/Contexts/?query=obiettivo&docIndex=0&corpus=c711612fb456540abfe5a0482cc8d0a5'>
+            -->
+    </iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' 
+    src='http://www.voyant-tools.org/tool/Contexts/?query=citt%C3%A0&docIndex=0&expand=5&corpus=5d208fb613052a78f4971e167549b318'>
+                <!--old context link     
+              src='https://voyant-tools.actusnews.com/tool/Contexts/?query=citt%C3%A0&docIndex=0&corpus=c711612fb456540abfe5a0482cc8d0a5'>
+            -->
+    </iframe></th>
   </tr>
 </tbody>
 </table>
@@ -82,12 +118,24 @@ Per quanto riguarda invece la parola "Piano" notiamo come questa keyword sia pre
 
 <table><thead>
   <tr style="background-color:#faf7f5"> 
-    <th >Colangelo<iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=sansevero&docIndex=0&corpus=bdcbe81b2d2099077cb049732e70e52e'></iframe></th>
-    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=progetto&docIndex=0&corpus=bdcbe81b2d2099077cb049732e70e52e'></iframe></th>
+    <th >Colangelo<iframe style='width: 558px; height: 250px;' 
+    src='http://www.voyant-tools.org/tool/Contexts/?query=sansevero&docIndex=0&corpus=47d6e9f69e66ef01a6072cb991266951'>
+    <!--old link   src='https://voyant-tools.actusnews.com/tool/Contexts/?query=sansevero&docIndex=0&corpus=bdcbe81b2d2099077cb049732e70e52e'>
+  -->
+    </iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' 
+    src='http://www.voyant-tools.org/tool/Contexts/?query=progetto&docIndex=0&context=10&corpus=47d6e9f69e66ef01a6072cb991266951'>
+    <!--old link      src='https://voyant-tools.actusnews.com/tool/Contexts/?query=progetto&docIndex=0&corpus=bdcbe81b2d2099077cb049732e70e52e'>
+ -->
+    </iframe></th>
   </tr></thead>
 <tbody>
   <tr>
-    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=citt%C3%A0&docIndex=0&corpus=bdcbe81b2d2099077cb049732e70e52e'></iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' 
+    src='http://www.voyant-tools.org/tool/Contexts/?query=citt%C3%A0&docIndex=0&corpus=47d6e9f69e66ef01a6072cb991266951'>
+    <!--old link     src='https://voyant-tools.actusnews.com/tool/Contexts/?query=citt%C3%A0&docIndex=0&corpus=bdcbe81b2d2099077cb049732e70e52e'>
+-->
+    </iframe></th>
     <th></th>
   </tr>
 </tbody>
@@ -98,12 +146,24 @@ Per quanto riguarda la candidata Colangelo, ho preso in considerazione solo le k
 
 <table><thead>
   <tr style="background-color:#faf7f5"> 
-    <th >Giuliani<iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=sansevero&docIndex=0&corpus=2df497449028cf60639435ef2bd452e7'></iframe></th>
-    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=sanit%C3%A0&docIndex=0&corpus=2df497449028cf60639435ef2bd452e7'></iframe></th>
+    <th >Giuliani<iframe style='width: 558px; height: 250px;' 
+    src='http://www.voyant-tools.org/tool/Contexts/?query=sansevero&docIndex=0&corpus=0ba76286364f3662433e787c0bc5e9ff'>
+    <!--old link     src='https://voyant-tools.actusnews.com/tool/Contexts/?query=sansevero&docIndex=0&corpus=2df497449028cf60639435ef2bd452e7'>
+-->
+    </iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' 
+    src='http://www.voyant-tools.org/tool/Contexts/?query=sanit%C3%A0&docIndex=0&context=10&corpus=0ba76286364f3662433e787c0bc5e9ff'>
+    <!--old link     src='https://voyant-tools.actusnews.com/tool/Contexts/?query=sanit%C3%A0&docIndex=0&corpus=2df497449028cf60639435ef2bd452e7'>
+ -->
+    </iframe></th>
   </tr></thead>
 <tbody>
   <tr>
-    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=fare&docIndex=0&corpus=2df497449028cf60639435ef2bd452e7'></iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' 
+    src='http://www.voyant-tools.org/tool/Contexts/?query=fare&docIndex=0&context=10&corpus=0ba76286364f3662433e787c0bc5e9ff'>
+    <!--old link      src='https://voyant-tools.actusnews.com/tool/Contexts/?query=fare&docIndex=0&corpus=2df497449028cf60639435ef2bd452e7'>
+-->
+    </iframe></th>
     <th></th>
   </tr>
 </tbody>
@@ -113,13 +173,28 @@ Anche per la candidata Giuliani, le keyword piú interessanti risultano essere 3
 
 <table><thead>
   <tr style="background-color:#faf7f5"> 
-    <th >Masucci<iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=territorio&docIndex=0&corpus=7bde0a5a041521a5faa89804245595fd'></iframe></th>
-    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=lavoro&docIndex=0&corpus=7bde0a5a041521a5faa89804245595fd'></iframe></th>
+    <th >Masucci<iframe style='width: 558px; height: 250px;' 
+    src='http://www.voyant-tools.org/tool/Contexts/?query=territorio&docIndex=0&corpus=c2a17856ef1ae7e93b674d5a9b2a8cc6'>
+    <!--old link     src='https://voyant-tools.actusnews.com/tool/Contexts/?query=territorio&docIndex=0&corpus=7bde0a5a041521a5faa89804245595fd'>
+-->
+    </iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' 
+    src='http://www.voyant-tools.org/tool/Contexts/?query=lavoro&docIndex=0&context=10&corpus=c2a17856ef1ae7e93b674d5a9b2a8cc6'>
+    <!--old link     src='https://voyant-tools.actusnews.com/tool/Contexts/?query=lavoro&docIndex=0&corpus=7bde0a5a041521a5faa89804245595fd'>
+-->
+    </iframe></th>
   </tr></thead>
 <tbody>
   <tr>
-    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=sansevero&docIndex=0&corpus=7bde0a5a041521a5faa89804245595fd'></iframe></th>
-    <th><iframe style='width: 558px; height: 250px;' src='https://voyant-tools.actusnews.com/tool/Contexts/?query=sicurezza&docIndex=0&corpus=7bde0a5a041521a5faa89804245595fd'></iframe></th>
+    <th><iframe style='width: 558px; height: 250px;' 
+    src='http://www.voyant-tools.org/tool/Contexts/?query=sansevero&docIndex=0&corpus=c2a17856ef1ae7e93b674d5a9b2a8cc6'>
+    <!--old link     src='https://voyant-tools.actusnews.com/tool/Contexts/?query=sansevero&docIndex=0&corpus=7bde0a5a041521a5faa89804245595fd'>
+-->
+    </iframe></th>
+    <th><iframe style='width: 558px; height: 250px;'
+    src='http://www.voyant-tools.org/tool/Contexts/?query=sicurezza&docIndex=0&corpus=c2a17856ef1ae7e93b674d5a9b2a8cc6'> 
+    <!--old link  src='https://voyant-tools.actusnews.com/tool/Contexts/?query=sicurezza&docIndex=0&corpus=7bde0a5a041521a5faa89804245595fd'>-->
+    </iframe></th>
   </tr>
 </tbody>
 </table>
